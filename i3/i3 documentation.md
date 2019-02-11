@@ -34,7 +34,21 @@ Setting up the wallpaper
 For customizing the terminal    Includes hyper-snazzy :luv: color theme and dpi for HiDPi adjusted
 ~/.Xresources
 
-		*.font: xft:Menlo:size=10
+		URxvt*termName:                 rxvt-256color
+		URxvt*font:                     xft:Menlo:size=12,xft:Inconsolata\ for\ Powerline:size=12
+		URxvt.depth:                    0
+		URxvt*lineSpace:                1
+		URxvt.letterSpace:              -1
+		URxvt.iso14755:                 false
+		URxvt.iso14755_52:              false
+		URxvt*geometry:                 65x17
+		URxvt.scrollBar:                false
+		URxvt*loginShell:               true
+		URxvt.internalBorder:           35
+		URxvt.perl-ext-common:          default,clipboard
+		URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+		URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+		URxvt.clipboard.autocopy:       true
 
 		Xft.dpi: 180 
 		Xft.autohint: 0
