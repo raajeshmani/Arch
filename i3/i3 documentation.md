@@ -23,7 +23,11 @@ After starting everything looks tiny, which can be fixed by setting dpi in ~/.xi
 		~/.fehbg &					Setting up of wallpaper to start at boot
 		exec i3						Starting of i3 ... after this command nothing executes
 	
+For Tap to Click and Scroll Options
+	
+	https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
 
+For gestures use ur libinput-gestures file
 
 Setting up the wallpaper
 ~/.fehbg
@@ -83,3 +87,5 @@ For customizing the terminal    Includes hyper-snazzy :luv: color theme and dpi 
 
 To visualize the changes after editing Xresources  .. to avoid rebooting
 	xrdb ~/.Xresources
+	
+
