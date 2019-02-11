@@ -2,13 +2,13 @@
 
 Already i have a working installation of gnome DM with quite a few applications so basic applications like vim are not included
 
-		install i3 dmenu
+		install i3 dmenu nnn urxvt
 
 Install everything that comes with that
 
 In ~/.xinitrc add
 
-		exec i3
+		exec i3 
 		
 To start i3, use
 
@@ -17,11 +17,11 @@ To start i3, use
 After starting everything looks tiny, which can be fixed by setting dpi in ~/.xinitrc
 
 		xrandr --auto
-		xrandr --dpi 192		 					multiple of 96	== twice the size
-		export TERMINAL=urxvt					for terminal to work
+		xrandr --dpi 192		 		multiple of 96	== twice the size
+		export TERMINAL=urxvt				for terminal to work
 		xrdb -merge ~/.Xresources			Merging Xresources to work on boot
-		~/.fehbg &										Setting up of wallpaper to start at boot
-		exec i3												Starting of i3 ... after this command nothing executes
+		~/.fehbg &					Setting up of wallpaper to start at boot
+		exec i3						Starting of i3 ... after this command nothing executes
 	
 
 
@@ -65,3 +65,7 @@ For customizing the terminal    Includes hyper-snazzy :luv: color theme and dpi 
 		*color14:     #9aedfe
 		*color7:      #eff0eb
 		*color15:     #eff0eb
+
+
+To visualize the changes after editing Xresources  .. to avoid rebooting
+	xrdb ~/.Xresources
