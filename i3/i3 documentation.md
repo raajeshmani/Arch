@@ -1,4 +1,4 @@
-*Installation*
+**Installation**
 
 Already i have a working installation of gnome DM with quite a few applications so basic applications like vim are not included
 
@@ -95,7 +95,7 @@ Audio -use pactl
 
 	vimtutor   :)
 
-*Compton*
+**Compton**
 Using compton config of this guy ... its perfect as said :)
 
 	https://github.com/jEsuSdA/the-perfect-desktop/blob/master/compton/compton.conf
