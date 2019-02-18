@@ -94,3 +94,10 @@ Brightness - use light
 Audio -use pactl
 
 	vimtutor   :)
+
+*Compton*
+Using compton config of this guy ... its perfect as said :)
+
+	https://github.com/jEsuSdA/the-perfect-desktop/blob/master/compton/compton.conf
+
+Enable h/w acceleration in chrome for reducing tear
