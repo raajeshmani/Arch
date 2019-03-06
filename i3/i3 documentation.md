@@ -99,5 +99,16 @@ Audio -use pactl
 Using compton config of this guy ... its perfect as said :)
 
 	https://github.com/jEsuSdA/the-perfect-desktop/blob/master/compton/compton.conf
-
+	
 Enable h/w acceleration in chrome for reducing tear
+	
+	
+**Changing Mouse Sensitivity
+
+Make sure to change both the values 10 142 to 12 153
+
+	https://unix.stackexchange.com/questions/90572/how-can-i-set-mouse-sensitivity-not-just-mouse-acceleration
+	
+	
+	
+	
