@@ -103,7 +103,7 @@ Using compton config of this guy ... its perfect as said :)
 Enable h/w acceleration in chrome for reducing tear
 	
 	
-**Changing Mouse Sensitivity
+**Changing Mouse Sensitivity**
 
 Make sure to change both the values 10 142 to 12 153
 
