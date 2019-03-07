@@ -1,6 +1,6 @@
 **Ethernet Cable Not Detecting**
 
-Its a bug [!link]https://bugzilla.redhat.com/show_bug.cgi?id=990139
+Its a bug [https://bugzilla.redhat.com/show_bug.cgi?id=990139]
 
 Note: I don't need to reset my interface, I don't need to restart NetworkMangager via
 
