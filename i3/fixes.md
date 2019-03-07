@@ -7,5 +7,6 @@ Note: I don't need to reset my interface, I don't need to restart NetworkMangage
 systemctl restart NetworkManager
 
 I only need to restart the interface
-sudo ifconfig em1 down
-sudo ifconfig em1 up
+
+    sudo ifconfig em1 down
+    sudo ifconfig em1 up
