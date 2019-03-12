@@ -10,3 +10,8 @@ I only need to restart the interface
 
     sudo ifconfig em1 down
     sudo ifconfig em1 up
+
+**Fix permission denied error in nautilus for other partitions**
+
+    sudo pacman -S polkit
+    https://wiki.archlinux.org/index.php/Polkit#Globally
