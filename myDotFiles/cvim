@@ -22,3 +22,21 @@ map v goForward
 
 let autohidecursor="true"
 let typelinkhintsdelay=100
+
+#Configuration of CSS to Resemble Saka Key :)
+
+.cVim-link-hint {
+  position: absolute;
+  color: #3F51F5 !important;
+  background-color: #FFFFFF !important;
+  border-radius: 2px !important;
+  padding: 2px !important;
+  font-size: 11pt !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  border: 1px solid #FFFFFF;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.25) !important;
+}
