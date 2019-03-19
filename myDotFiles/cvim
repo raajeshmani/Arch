@@ -1,0 +1,24 @@
+map n :tabnew chrome://newtab<CR>
+map .i :tabnew chrome://settings<CR>
+map .f :tabnew chrome://flags<CR>
+map .gs :tabnew gist.github.com<CR>
+map .gi :tabnew github.com/raajeshmani<CR>
+map .was :tabnew web.whatsapp.com<CR>
+
+map ,i :tabnew intranet.cb.amrita.edu/<CR>
+map ,a :tabnew https://amritavidya.amrita.edu:8444/aums/Jsp/Core_Common/index.jsp<CR>
+map ,c :tabnew cms.amritanet.edu<CR>
+map ,f :tabnew ftp://ftp.amritanet.edu<CR>
+
+map d scrollDown
+map D scrollPageDown
+map S scrollPageUp
+map s scrollUp
+map q previousTab
+map w nextTab
+map b :duplicate<CR>
+map c goBack
+map v goForward
+
+let autohidecursor="true"
+let typelinkhintsdelay=100
