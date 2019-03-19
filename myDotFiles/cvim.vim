@@ -1,4 +1,4 @@
-map n :tabnew chrome://newtab<CR>
+map T :tabnew chrome://newtab<CR>
 map .i :tabnew chrome://settings<CR>
 map .f :tabnew chrome://flags<CR>
 map .gs :tabnew gist.github.com<CR>
@@ -19,7 +19,6 @@ map w nextTab
 map b :duplicate<CR>
 map c goBack
 map v goForward
-
 let autohidecursor="true"
 let typelinkhintsdelay=100
 
@@ -31,7 +30,7 @@ let typelinkhintsdelay=100
   background-color: #FFFFFF !important;
   border-radius: 2px !important;
   padding: 2px !important;
-  font-size: 11pt !important;
+  font-size: 9pt !important;
   font-weight: 900 !important;
   text-transform: uppercase !important;
   border: 1px solid #FFFFFF;
