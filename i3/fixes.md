@@ -15,3 +15,9 @@ I only need to restart the interface
 
     sudo pacman -S polkit
     https://wiki.archlinux.org/index.php/Polkit#Globally
+
+
+**Android Studio Focus Fix**
+
+    Add suppress.focus.stealing=false in custom properties
+    Open Custom Properties from Help > Edit Custom Properties
