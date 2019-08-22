@@ -11,3 +11,14 @@ Answer carefully for the following script
 
     # mysql_secure_installation
 
+
+Configuration
+
+    # mysql -u root -p
+   
+Here monty is the username and some_pass is the password 
+    
+    MariaDB> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+    MariaDB> GRANT ALL PRIVILEGES ON mydb.* TO 'monty'@'localhost';
+    MariaDB> FLUSH PRIVILEGES;
+    MariaDB> quit
