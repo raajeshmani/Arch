@@ -1,0 +1,5 @@
+!! this file is destroyed every time x_normal.sh is run, editing is futile
+!! content is defined in x_hidpi.sh
+!! content is loaded in .xinitrc
+Xft.dpi : 200
+Xft.antialias: false
