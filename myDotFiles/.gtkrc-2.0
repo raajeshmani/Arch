@@ -2,12 +2,12 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/ryuuk_shinigami/.gtkrc-2.0.mine"
-gtk-theme-name="Arc-Darker"
-gtk-icon-theme-name="Papirus-Dark"
+gtk-theme-name="Adapta"
+gtk-icon-theme-name="Oranchelo"
 gtk-font-name="Segoe UI 11"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0
-gtk-toolbar-style=GTK_TOOLBAR_BOTH
+gtk-toolbar-style=GTK_TOOLBAR_BOTH_HORIZ
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
 gtk-button-images=1
 gtk-menu-images=1

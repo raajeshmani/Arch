@@ -104,6 +104,38 @@ function kaboomhadoop() {
 }
 
 
+function generateDotFiles() {
+    echo --- Executing migration of dot files script ---
+    echo --- Copying Scripts ---
+    sudo cp ~/.bashrc ~/Arch/myDotFiles/.bashrc
+    sudo cp ~/.custom_commands.sh  ~/Arch/myDotFiles/.custom_commands.sh
+    sudo cp ~/enableGpu.sh  ~/Arch/myDotFiles/enableGpu.sh
+    sudo cp ~/.gtkrc-2.0  ~/Arch/myDotFiles/.gtkrc-2.0
+    sudo cp ~/.i3status  ~/Arch/myDotFiles/.i3status
+    sudo cp ~/.i3blocks.conf  ~/Arch/myDotFiles/.i3blocks.conf
+    sudo cp ~/newstartx.sh  ~/Arch/myDotFiles/newstartx.sh
+    sudo cp ~/.startupscript.sh  ~/Arch/myDotFiles/.startupscript.sh
+    sudo cp ~/.switchWindows.sh  ~/Arch/myDotFiles/.switchWindows.sh
+    sudo cp ~/.vimrc  ~/Arch/myDotFiles/.vimrc
+    sudo cp ~/.xinitrc  ~/Arch/myDotFiles/.xinitrc
+    sudo cp ~/.Xresources  ~/Arch/myDotFiles/.Xresources
+    sudo cp ~/.Xresources-hidpi  ~/Arch/myDotFiles/.Xresources-hidpi
+    sudo cp ~/.zpreztorc  ~/Arch/myDotFiles/.zpreztorc
+    sudo cp ~/.zprofile  ~/Arch/myDotFiles/.zprofile
+    sudo cp ~/.zshenv  ~/Arch/myDotFiles/.zshenv
+    sudo cp ~/.zshrc  ~/Arch/myDotFiles/.zshrc
+    sudo cp ~/.config/gtk-3.0/settings.ini  ~/Arch/myDotFiles/.config/gtk-3.0/settings.ini
+    sudo cp ~/.config/gtk-4.0/settings.ini  ~/Arch/myDotFiles/.config/gtk-4.0/settings.ini
+    sudo cp ~/.config/i3/config ~/Arch/myDotFiles/.config/i3/config
+    sudo cp ~/.config/i3status/config ~/Arch/myDotFiles/.config/i3status/config
+    sudo cp ~/.config/i3status/net-speed.sh ~/Arch/myDotFiles/.config/i3status/net-speed.sh
+    sudo cp ~/.config/libinput-gestures.conf ~/Arch/myDotFiles/.config/libinput-gestures.conf
+    sudo cp ~/.config/compton.conf ~/Arch/myDotFiles/.config/compton.conf
+
+    echo --- Haaah !! I am too tired of copying !! Now its upto you to push to remote ---
+
+}
+
 
 
 

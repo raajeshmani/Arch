@@ -38,6 +38,9 @@ export HADOOP_USER_CLASSPATH_FIRST=true
 export PIG_HOME=/home/ryuuk_shinigami/Desktop/pig
 export PATH=$PATH:$PIG_HOME/bin
 
+# Cassandra 
+export CASSANDRA_HOME=/home/ryuuk_shinigami/Desktop/cassandra/
+export PATH=$PATH:$CASSANDRA_HOME/bin
 
 # My custom command scripts
 source ~/.custom_commands.sh

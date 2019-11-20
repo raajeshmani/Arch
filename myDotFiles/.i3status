@@ -1,0 +1,13 @@
+
+rder += "volume master"
+...
+...
+...
+
+volume master {
+        format = "V: %volume"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
