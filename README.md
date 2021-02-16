@@ -33,5 +33,13 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'prompt'
 ```
+- After doing the configurations install nvm - https://github.com/creationix/nvm#installation 
+- Install the required node version after ```nvm use``` in the required installation directory
+- Install RVM using ```curl -sSL https://get.rvm.io | bash -s stable``` Note: Mac has its own Ruby.. 
+- Install Ruby with RVM after ```rvm use``` in the working directory
+- Install mentioned ruby via ```rvm install "ruby-2.6.3"``` 
+- Now the setup would theoretically be done
+
+
 
 
